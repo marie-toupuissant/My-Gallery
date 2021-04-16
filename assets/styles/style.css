@@ -1,3 +1,4 @@
+/* RESET */
 *, ::before, ::after {
     box-sizing: border-box;
     padding: 0;
@@ -10,11 +11,17 @@ html {
 
 body {
     font-size: 1.4rem;
+    font-family: "Monsterrat", arial ,sans-serif;
+    min-width: 375px;
+    max-width: 576px;
+    max-height: 717px;
+    margin: 0 auto;
 }
 img {
     width: 100%;
     height: auto;
 }
+/* Fin du Reset */
 :root {
     --white:#fff;
     --LightGray:#A9A9A9;
@@ -25,16 +32,11 @@ img {
 }
 /* Container mobile */
 .container {
-    font-family: "Monsterrat", arial ,sans-serif;
-    /* border:1px solid tomato; */
-    min-width: 375px;
-    max-width: 576px;
-    max-height: 717px;
     margin: 0 auto;
     background: var(--white);
     box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-}
+} 
 /* header */
 header {
     display: flex;
@@ -42,7 +44,7 @@ header {
     align-items: center;
     justify-content: center;
     /* padding-top:6%; */
-    margin-top:6%;
+    margin-top:4.5%;
 }
 
 .user {
@@ -51,15 +53,16 @@ header {
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 30%;
+    height:30%;
     /* margin-top:6%; */
-    padding-top:5%;
+    /* padding-top:5%; */
 }
 .user img {
     border-radius: 1.6rem;
 }
 ul.user-infos{
-    margin:3%; 
+    /* margin:3%;  */
     padding:3%;
     color:white;
 }
@@ -68,7 +71,7 @@ ul.user-infos li:nth-child(1) {
     line-height: 17px;
     text-align: center;
     color: var(--DarkGray);
-    padding-bottom:4px;
+    /* padding-bottom:4px; */
 }
 
 ul.user-infos li:nth-child(2) {
@@ -78,6 +81,7 @@ ul.user-infos li:nth-child(2) {
     text-align: center;
     color: var(--LightGray);
 }
+
 ul.social-media{
     display: flex;
     align-items: center;
@@ -93,7 +97,7 @@ ul.item3{
     background-color:var(--BgcSocialMedia);
     border-radius:1.2rem;
     margin-right: 8%;
-    padding: 8%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -109,7 +113,6 @@ ul.item3 li:nth-child(1){
 ul.item1 li:nth-child(2),
 ul.item2 li:nth-child(2),
 ul.item3 li:nth-child(2){
-    font-family: Montserrat;
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.5rem;
@@ -119,11 +122,13 @@ ul.item3 li:nth-child(2){
 /* main */
 main{
     height: 100%;
+    padding-bottom:3%;
 }
+
 /* Grid container */
 .grid-container {
     display: grid;
-    grid-template: 31% 31% 1fr / 30% 30% 30%;
+    grid-template: 31% 31% 1fr / 31% 31% 31%;
     grid-gap: 2%;
     justify-content: center;
     margin-top:5%;
@@ -175,10 +180,11 @@ footer{
 
 
 @media screen and (min-width:577px) and (max-width:1200px){
-.container{
+body{
     min-width:577px;
     max-width: 1200px;
     max-height: 1577px;
     background-color: pink;
    }
-}
+
+} 
