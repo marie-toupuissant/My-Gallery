@@ -38,13 +38,6 @@
  ![Capture- My gallery](https://user-images.githubusercontent.com/74815915/117817034-7b9a0880-b267-11eb-9134-eaac6d8dd333.png)
 
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -71,5 +64,5 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 ## Contact
 
-- Website [your-website.](https://marie-toupuissant.github.io/Portfolio/)
+- Website [My website](https://marie-toupuissant.github.io/Portfolio/)
 - GitHub [Marie Toupuissant](https://github.com/marie-toupuissant)
