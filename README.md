@@ -1,9 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{My Gallery | Marie T}</h1>
+<h1 align="center">My Gallery | Marie T</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>
 </div>
 
 <div align="center">
@@ -71,6 +71,5 @@ This site was created as a submission to a [DevChallenges](https://devchallenges
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [Marie Toupuissant](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.](https://marie-toupuissant.github.io/Portfolio/)
+- GitHub [Marie Toupuissant](https://github.com/marie-toupuissant)
