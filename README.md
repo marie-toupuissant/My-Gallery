@@ -35,9 +35,8 @@
 <!-- OVERVIEW -->
 
 ## Overview
+ ![Capture- My gallery](https://user-images.githubusercontent.com/74815915/117817034-7b9a0880-b267-11eb-9134-eaac6d8dd333.png)
 
-( ![Capture- My gallery](https://user-images.githubusercontent.com/74815915/117817034-7b9a0880-b267-11eb-9134-eaac6d8dd333.png)
-)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
